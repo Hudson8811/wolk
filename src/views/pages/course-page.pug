@@ -1,0 +1,542 @@
+extends ../layouts/default
+include ../helpers/mixins
+
+block variables
+	- const title = "Course page"
+
+block content
+	.course-page
+		include ../../blocks/modules/header/header
+		include ../../blocks/modules/breadcrumbs/breadcrumbs
+
+		section.block-content.bg--white.block-content--course
+			.container
+				.block-text
+					.reviews__bg.block-text--bg--2
+						img(src="img/block-text--bg--2.png", alt="")
+					.block-text--title.fz__39 КОМПЛЕКСНАЯ САМООБОРОНА
+					.text-one.fz__15
+						p
+							| <img src="img/course-page--1.png", alt="">Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании форм развития. Товарищи! рамки и место обучения кадров требуют определения и уточнения существенных финансовых и административных условий. <br><br>
+							| Не следует, однако забывать, что дальнейшее развитие различных форм деятельности требуют от нас анализа направлений прогрессивного развития. Идейные соображения высшего порядка, а также укрепление и развитие структуры позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! новая модель организационной деятельностив значительной степени обуславливает создание существенных финансовыхи административных условий. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия.<br><br>
+							| Повседневная практика показывает, что реализация намеченных плановых заданий играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. С другой стороны новая модель организационной деятельности играет важную роль в формировании дальнейших направлений развития. Значимость этих проблем настолько очевидна, что консультация с широким активом в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач<br><br>
+		
+				.block-text.no-margin
+					.text-two.fz__15
+						p
+							| <img src="img/course-page--2.png", alt="">Задача организации, в особенности же начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании модели развития.<br><br>
+							| Задача организации, в особенности же начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании модели развития.<br><br>
+							| Равным образом реализация намеченных плановых заданий требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач.<br><br>
+							| С другой стороны постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участиев формировании позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.<br><br>
+
+		section.block-content.bg--black.block-content--course-form
+			.container
+				.footer--title.fz__39 ХОТИТЕ НАУЧИТЬСЯ САМООБОРОНЕ?
+				.footer--subtitle.fz__24 Если вы хотите стать участником клуба и пройти курс по самообороне, оставьте заявку в форме справа, и мы вам обязательно перезвоним
+				.footer--row
+						.footer__form
+								form
+										.form__block__wrap
+												.form__block-double
+														.form__block 
+																label(for="")
+																		b
+																		input(type="text" placeholder="Фамилия")                 
+														.form__block 
+																label(for="")
+																		b
+																		input.js-mask-phone(type="tel", name="" placeholder="Ваш телефон")                 
+												.form__block.form__block--assent
+														<label class="form__block--checkbox">
+																<input type="checkbox" checked="checked">
+																<span class="checkmark"></span>
+																p
+																		!="Соглашаюсь с условиями"
+																		a.link--one  политики конфиденциальности
+														</label>
+														a.button.form__block--button ОТПРАВИТЬ
+
+		section.block-content.bg--white.block-content--course-video
+			.container
+				.block-text
+					.text-video
+						.text-video--col
+							p
+								| Значимость этих проблем настолько очевидна, что новая модель организационной деятельности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Значимость этих проблем настолько очевидна, что сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.<br><br>
+								| Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям.<br><br>
+								| Задача организации, в особенности же постоянный количественный рост и сфера нашей активности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенностиже сложившаяся структура организации играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Равным образом укрепление и развитие структуры требуют определения и уточнения соответствующий условий активизации. Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке существенных финансовых и административных условий.<br><br>
+						.text-video--col
+							a.video-reviews__video(href='https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0')
+								img.video-reviews__preview(src='img/text-video--1.png', srcset='./img/text-video--1.png 2x', alt='')
+								.video-reviews__play
+									img(src='img/svg/i-play-2.svg', alt="")
+		
+
+
+		section.block-content.bg--white
+			.container 
+				.course-page--slider
+					.slider-duble--title.fz__39 КАК ПРОХОДИТ ОБУЧЕНИЕ
+					.swiper.slider-duble.js--course-page
+						.swiper-wrapper
+								.swiper-slide
+									.slide-picture
+										img.slide-picture__preview(src='img/course-page--3.png', srcset='./img/course-page--3.png 2x', alt='')
+								
+								.swiper-slide
+									a.video-reviews__video(href='https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0')
+										img.video-reviews__preview(src='img/course-page--7.png', srcset='./img/course-page--7.png 2x', alt='')
+										.video-reviews__play
+											img(src='img/svg/i-play-2.svg', alt="")
+								.swiper-slide
+									.slide-picture
+										img.slide-picture__preview(src='img/course-page--1.png', srcset='./img/course-page--1.png 2x', alt='')
+								
+								
+								.swiper-slide
+									.slide-picture
+										img.slide-picture__preview(src='img/course-page--2.png', srcset='./img/course-page--2.png 2x', alt='')
+								
+								.swiper-slide
+									.slide-picture
+										img.slide-picture__preview(src='img/training--3.png', srcset='./img/training--3.png 2x', alt='')
+								
+								
+						.swiper-button-next
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+						.swiper-button-prev
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+
+		section.block-content.bg--white
+			.container 
+
+				#eventsCalendarTop
+					.fc__top
+						.fc__home
+							a.fc__home-link.fz__39(href='javascript:;' data-month='') РАСПИСАНИЕ  ЗАНЯТИЙ
+
+						.fc__navigate
+							a.fc__nav.fc__prev(href='javascript:;' data-month='')
+								<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							.fc__monthName Апрель
+							a.fc__nav.fc__next(href='javascript:;' data-month='')
+								<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+				#eventsCalendar
+					.fc.fc-unthemed.fc-ltr
+						.fc-view-container
+							.fc-view.fc-month-view.fc-basic-view
+								table
+									thead.fc-head
+										tr
+											td.fc-head-container
+												.fc-row
+													table
+														thead
+															tr
+																th.fc-day-header.fc-widget-header.fc-mon
+																	span Понедельник
+																	b Пн
+																th.fc-day-header.fc-widget-header.fc-tue
+																	span Вторник
+																	b Вт
+																th.fc-day-header.fc-widget-header.fc-wed
+																	span Среда
+																	b Ср
+																th.fc-day-header.fc-widget-header.fc-thu
+																	span Четверг
+																	b Чт
+																th.fc-day-header.fc-widget-header.fc-fri
+																	span Пятница
+																	b ПН
+																th.fc-day-header.fc-widget-header.fc-sat
+																	span Суббота
+																	b Сб
+																th.fc-day-header.fc-widget-header.fc-sun
+																	span Воскресение
+																	b Вс
+									tbody.fc-body
+										tr
+											td.fc-widget-content
+												.fc-scroller.fc-day-grid-container
+													.fc-day-grid.fc-unselectable
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-sun
+																			td.fc-day.fc-widget-content.fc-sun
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 31
+																			td.fc-day-top
+																				span.fc-day-number 1
+																			td.fc-day-top
+																				span.fc-day-number 2
+																			td.fc-day-top
+																				span.fc-day-number 3
+																			td.fc-day-top
+																				span.fc-day-number 4
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 5
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 6
+																	tbody
+																		tr
+																			td
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end(href='javascript:;' data-title='Семинар Крийя' data-description='This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. ' data-id='3075' data-location='Москва, Красная площадь' data-time='10:20' data-date='01 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/03/home-slider-pic-570x410.jpg' data-permalink='http://ik.q7.by/events/seminar-krijya/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80+%D0%9A%D1%80%D0%B8%D0%B9%D1%8F&dates=20210601T102000/20210602T112100&location=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C&details=This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3075')
+																					.fc-content
+																						span.fc-title.fc-title--red Значимость этих проблем настолько очевидна
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Лекция «Кhbqz
+																			td
+																			td
+																			td
+																		tr
+																			td
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end(href='javascript:;' data-title='Ретрит' data-description='This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. ' data-id='3096' data-location='Москва, Красная площадь' data-time='10:20' data-date='01 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/04/dsc_0998-1-570x360.jpg' data-permalink='http://ik.q7.by/events/retreat/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%A0%D0%B5%D1%82%D1%80%D0%B8%D1%82&dates=20210601T102000/20210602T112100&location=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C&details=This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3096')
+																					.fc-content
+																						span.fc-title Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut!
+																			td
+																			td
+																			td
+																			td
+																		tr
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-sun
+																			td.fc-day.fc-widget-content.fc-sun
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top
+																				span.fc-day-number 7
+																			td.fc-day-top
+																				span.fc-day-number 8
+																			td.fc-day-top
+																				span.fc-day-number 9
+																			td.fc-day-top
+																				span.fc-day-number 10
+																			td.fc-day-top
+																				span.fc-day-number 11
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 12
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 13
+																	tbody
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-today
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-sun
+																			td.fc-day.fc-widget-content.fc-sun
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top
+																				span.fc-day-number 14
+																			td.fc-day-top
+																				span.fc-day-number 15
+																			td.fc-day-top
+																				span.fc-day-number 16
+																			td.fc-day-top.fc-today
+																				span.fc-day-number 17
+																			td.fc-day-top
+																				span.fc-day-number 18
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 19
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 20
+																	tbody
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='мероприятие для отладки календаря 12-26' data-description='Краткое описание событие\
+												  asdsadsadsd' data-id='3820' data-location='Киев' data-time='12:00' data-date='12 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&dates=20210612T000000/20210626T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820')
+																					.fc-content
+																						span.fc-title мероприятие для отладки календаря 12-26
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-sun
+																			td.fc-day.fc-widget-content.fc-sun
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top
+																				span.fc-day-number 21
+																			td.fc-day-top
+																				span.fc-day-number 22
+																			td.fc-day-top
+																				span.fc-day-number 23
+																			td.fc-day-top
+																				span.fc-day-number 24
+																			td.fc-day-top
+																				span.fc-day-number 25
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 26
+																			td.fc-day-top.fc-sun
+																				span.fc-day-number 27
+																	tbody
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-end(href='javascript:;' data-title='мероприятие для отладки календаря 12-26' data-description='Краткое описание событие\
+												  asdsadsadsd' data-id='3820' data-location='Киев' data-time='12:00' data-date='12 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&dates=20210612T000000/20210626T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820')
+																					.fc-content
+																						span.fc-title мероприятие для отладки календаря 12-26
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-end(href='javascript:;' data-title='мероприятие для отладки календаря 12-26' data-description='Краткое описание событие\
+												  asdsadsadsd' data-id='3820' data-location='Киев' data-time='12:00' data-date='12 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&dates=20210612T000000/20210626T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820')
+																					.fc-content
+																						span.fc-title мероприятие для отладки календаря 12-26
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-end(href='javascript:;' data-title='мероприятие для отладки календаря 12-26' data-description='Краткое описание событие\
+												  asdsadsadsd' data-id='3820' data-location='Киев' data-time='12:00' data-date='12 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&dates=20210612T000000/20210626T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820')
+																					.fc-content
+																						span.fc-title мероприятие для отладки календаря 12-26
+																			td
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.has-events
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-sun.fc-other-month
+																			td.fc-day.fc-widget-content.fc-sun.fc-other-month
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top
+																				span.fc-day-number 28
+																			td.fc-day-top
+																				span.fc-day-number 29
+																			td.fc-day-top
+																				span.fc-day-number 30
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 1
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 2
+																			td.fc-day-top.fc-sun.fc-other-month
+																				span.fc-day-number 3
+																			td.fc-day-top.fc-sun.fc-other-month
+																				span.fc-day-number 4
+																	tbody
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																		tr
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																		tr
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+														.fc-row.fc-week.fc-widget-content
+															.fc-bg
+																table
+																	tbody
+																		tr
+																			td.fc-day.fc-widget-content.fc-other-month.has-events
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-other-month
+																			td.fc-day.fc-widget-content.fc-sun.fc-other-month
+																			td.fc-day.fc-widget-content.fc-sun.fc-other-month
+															.fc-content-skeleton
+																table
+																	thead
+																		tr
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 5
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 6
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 7
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 8
+																			td.fc-day-top.fc-other-month
+																				span.fc-day-number 9
+																			td.fc-day-top.fc-sun.fc-other-month
+																				span.fc-day-number 10
+																			td.fc-day-top.fc-sun.fc-other-month
+																				span.fc-day-number 11
+																	tbody
+																		tr
+																			td.fc-event-container(colspan='1')
+																				a.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-not-end(href='javascript:;' data-title='3-7' data-description='Краткое описание событие' data-id='3831' data-location='Киев' data-time='12:00' data-date='03 июня' data-img='http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg' data-permalink='http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/' data-google='https://www.google.com/calendar/event?action=TEMPLATE&text=3-7&dates=20210603T000000/20210714T000000&location=%D0%9A%D0%B8%D0%B5%D0%B2&details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5' data-apple='/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831')
+																					.fc-content
+																						span.fc-title.fc-title--red Ножевой бой
+																		tr
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																		tr
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+																			td
+
+
+
+
+		section.block-content.bg--white
+			.container 
+				.training
+					.slider-four--title.fz__39 ДРУГИЕ КУРСЫ
+					.swiper.slider-four.js--training
+						.swiper-wrapper
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--1.png', srcset='./img/training--1.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle 
+											!="«Безопасность <br>в транспорте»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--2.png', srcset='./img/training--2.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle 
+											!="«Тактический<br>травмат»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--3.png', srcset='./img/training--3.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle
+											!="Курс <br> «Оператор АК. База»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--4.png', srcset='./img/training--4.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle 
+											!="«Основы <br>доврачебной помощи»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--2.png', srcset='./img/training--2.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle 
+											!="«Тактический<br>травмат»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--3.png', srcset='./img/training--3.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle
+											!="Курс <br> «Оператор АК. База»"
+								.swiper-slide
+									a.video-reviews__video(href='#')
+										img.video-reviews__preview(src='img/training--4.png', srcset='./img/training--4.png 2x', alt='')
+									.slider-four--text
+										.slider-four--subtitle 
+											!="«Основы <br>доврачебной помощи»"
+						.swiper-button-next
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+						.swiper-button-prev
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+						
+
+	include ../../blocks/modules/footer/footer
+
+block scripts
+	script(src="js/vendor.js")
+	script(src="js/main.js")

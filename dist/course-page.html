@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Course page</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="course-page">
+      <div class="section__header"> 
+        <div class="container">
+          <div class="header__decs"> <img class="header__decs__logo" src="img/svg/logo_wolk.svg" alt="logo">
+            <ul class="header__menu"> 
+              <li class="header__menu--item"><a href="#">О центре</a></li>
+              <li class="header__menu--item"><a href="#">Расписание занятий</a></li>
+              <li class="header__menu--item"><a href="#">Анонсы курсов</a></li>
+              <li class="header__menu--item"><a href="#">О центре</a></li>
+              <li class="header__menu--item"><a href="#">Наши инструкторы</a></li>
+              <li class="header__menu--item"><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="header__other">
+            <div class="header__other__soc"><a class="header__other__soc__icon" href="tel:+79998887765"> <img src="img/svg/header-phone.svg" alt="icon">+7 (999) 888 77-65</a><a class="header__other__soc__icon" href="mailto:email@wolk.ru"><img src="img/svg/header-Email.svg" alt="icon">email@wolk.ru</a></div>
+          </div>
+          <div class="header__other__mob"> <a class="header__other__humb"><img src="img/svg/humb.svg" alt="icon"></a></div>
+        </div>
+      </div>
+      <div class="section__mob-menu">	
+        <div class="mob-menu--overlay"></div>
+        <div class="mob-menu">
+          <div class="mob-menu--close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 18L10 10M18 18L10 10M2 2L10 10M18 2L10 10" stroke="#031B4B" stroke-width="1.5" stroke-linecap="square"/>
+</svg>	
+          </div>
+          <ul class="mob-menu--list">
+            <li class="mob-menu--item"><a href="#">О центре</a></li>
+            <li class="mob-menu--item"><a href="#">Расписание занятий</a></li>
+            <li class="mob-menu--item"><a href="#">Анонсы курсов</a></li>
+            <li class="mob-menu--item"><a href="#">О центре</a></li>
+            <li class="mob-menu--item"><a href="#">Наши инструкторы</a></li>
+            <li class="mob-menu--item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="header__other">
+            <div class="header__other__soc"><a class="header__other__soc__icon" href="tel:+79998887765">
+                 <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg> +7 (999) 888 77-65</a><a class="header__other__soc__icon" href="mailto:email@wolk.ru"><svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_143)">
+<path d="M26.1177 3.5293H3.88235C2.2255 3.5293 0.882355 4.87244 0.882355 6.5293V23.4705C0.882355 25.1273 2.2255 26.4705 3.88235 26.4705H26.1177C27.7745 26.4705 29.1176 25.1273 29.1176 23.4705V6.5293C29.1176 4.87244 27.7745 3.5293 26.1177 3.5293Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M0.833332 7.5C0.833332 7.5 11.7445 16.6695 12.6334 17.4156C13.5223 18.1618 14.4479 18.3333 15 18.3333C15.5521 18.3333 16.4777 18.1624 17.3666 17.4162C18.2555 16.6701 29.1667 7.50057 29.1667 7.50057" stroke="#CA3232" stroke-width="1.9959" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_143">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>email@wolk.ru</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="section section__breadcrumbs">
+        <div class="container"> 
+          <div class="breadcrumbs"><a class="breadcrumbs__item">
+               Главная</a><a class="breadcrumbs__item">
+               Курсы</a><a class="breadcrumbs__item breadcrumbs__item__active">Комплексная самооборона</a></div>
+        </div>
+      </div>
+      <section class="block-content bg--white block-content--course">
+        <div class="container">
+          <div class="block-text">
+            <div class="reviews__bg block-text--bg--2"><img src="img/block-text--bg--2.png" alt=""></div>
+            <div class="block-text--title fz__39">КОМПЛЕКСНАЯ САМООБОРОНА</div>
+            <div class="text-one fz__15">
+              <p>
+                <img src="img/course-page--1.png", alt="">Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании форм развития. Товарищи! рамки и место обучения кадров требуют определения и уточнения существенных финансовых и административных условий. <br><br>
+                Не следует, однако забывать, что дальнейшее развитие различных форм деятельности требуют от нас анализа направлений прогрессивного развития. Идейные соображения высшего порядка, а также укрепление и развитие структуры позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! новая модель организационной деятельностив значительной степени обуславливает создание существенных финансовыхи административных условий. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия.<br><br>
+                Повседневная практика показывает, что реализация намеченных плановых заданий играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. С другой стороны новая модель организационной деятельности играет важную роль в формировании дальнейших направлений развития. Значимость этих проблем настолько очевидна, что консультация с широким активом в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач<br><br>
+              </p>
+            </div>
+          </div>
+          <div class="block-text no-margin">
+            <div class="text-two fz__15">
+              <p>
+                <img src="img/course-page--2.png", alt="">Задача организации, в особенности же начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании модели развития.<br><br>
+                Задача организации, в особенности же начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании модели развития.<br><br>
+                Равным образом реализация намеченных плановых заданий требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач.<br><br>
+                С другой стороны постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участиев формировании позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.<br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--black block-content--course-form">
+        <div class="container">
+          <div class="footer--title fz__39">ХОТИТЕ НАУЧИТЬСЯ САМООБОРОНЕ?</div>
+          <div class="footer--subtitle fz__24">Если вы хотите стать участником клуба и пройти курс по самообороне, оставьте заявку в форме справа, и мы вам обязательно перезвоним</div>
+          <div class="footer--row">
+            <div class="footer__form">
+              <form>
+                <div class="form__block__wrap">
+                  <div class="form__block-double">
+                    <div class="form__block"> 
+                      <label for=""><b></b>
+                        <input type="text" placeholder="Фамилия">
+                      </label>
+                    </div>
+                    <div class="form__block"> 
+                      <label for=""><b></b>
+                        <input class="js-mask-phone" type="tel" name="" placeholder="Ваш телефон">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form__block form__block--assent"><label class="form__block--checkbox">
+<input type="checkbox" checked="checked">
+<span class="checkmark"></span>
+                    <p>Соглашаюсь с условиями<a class="link--one"> политики конфиденциальности</a>
+                    </p></label><a class="button form__block--button">ОТПРАВИТЬ</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white block-content--course-video">
+        <div class="container">
+          <div class="block-text">
+            <div class="text-video">
+              <div class="text-video--col">
+                <p>
+                  Значимость этих проблем настолько очевидна, что новая модель организационной деятельности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Значимость этих проблем настолько очевидна, что сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.<br><br>
+                  Разнообразный и богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям.<br><br>
+                  Задача организации, в особенности же постоянный количественный рост и сфера нашей активности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенностиже сложившаяся структура организации играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Равным образом укрепление и развитие структуры требуют определения и уточнения соответствующий условий активизации. Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке существенных финансовых и административных условий.<br><br>
+                </p>
+              </div>
+              <div class="text-video--col"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/text-video--1.png" srcset="./img/text-video--1.png 2x" alt="">
+                  <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container"> 
+          <div class="course-page--slider">
+            <div class="slider-duble--title fz__39">КАК ПРОХОДИТ ОБУЧЕНИЕ</div>
+            <div class="swiper slider-duble js--course-page">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide-picture"><img class="slide-picture__preview" src="img/course-page--3.png" srcset="./img/course-page--3.png 2x" alt=""></div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/course-page--7.png" srcset="./img/course-page--7.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a></div>
+                <div class="swiper-slide">
+                  <div class="slide-picture"><img class="slide-picture__preview" src="img/course-page--1.png" srcset="./img/course-page--1.png 2x" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-picture"><img class="slide-picture__preview" src="img/course-page--2.png" srcset="./img/course-page--2.png 2x" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-picture"><img class="slide-picture__preview" src="img/training--3.png" srcset="./img/training--3.png 2x" alt=""></div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container"> 
+          <div id="eventsCalendarTop">
+            <div class="fc__top">
+              <div class="fc__home"><a class="fc__home-link fz__39" href="javascript:;" data-month="">РАСПИСАНИЕ  ЗАНЯТИЙ</a></div>
+              <div class="fc__navigate"><a class="fc__nav fc__prev" href="javascript:;" data-month=""><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg></a>
+                <div class="fc__monthName">Апрель</div><a class="fc__nav fc__next" href="javascript:;" data-month=""><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg></a>
+              </div>
+            </div>
+          </div>
+          <div id="eventsCalendar">
+            <div class="fc fc-unthemed fc-ltr">
+              <div class="fc-view-container">
+                <div class="fc-view fc-month-view fc-basic-view">
+                  <table>
+                    <thead class="fc-head">
+                      <tr>
+                        <td class="fc-head-container">
+                          <div class="fc-row">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th class="fc-day-header fc-widget-header fc-mon"><span>Понедельник</span><b>Пн</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-tue"><span>Вторник</span><b>Вт</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-wed"><span>Среда</span><b>Ср</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-thu"><span>Четверг</span><b>Чт</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-fri"><span>Пятница</span><b>ПН</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-sat"><span>Суббота</span><b>Сб</b></th>
+                                  <th class="fc-day-header fc-widget-header fc-sun"><span>Воскресение</span><b>Вс</b></th>
+                                </tr>
+                              </thead>
+                            </table>
+                          </div>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody class="fc-body">
+                      <tr>
+                        <td class="fc-widget-content">
+                          <div class="fc-scroller fc-day-grid-container">
+                            <div class="fc-day-grid fc-unselectable">
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">31</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">1</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">2</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">3</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">4</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">5</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">6</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end" href="javascript:;" data-title="Семинар Крийя" data-description="This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. " data-id="3075" data-location="Москва, Красная площадь" data-time="10:20" data-date="01 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/03/home-slider-pic-570x410.jpg" data-permalink="http://ik.q7.by/events/seminar-krijya/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80+%D0%9A%D1%80%D0%B8%D0%B9%D1%8F&amp;dates=20210601T102000/20210602T112100&amp;location=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C&amp;details=This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3075">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Значимость этих проблем настолько очевидна</span></div></a></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Лекция «Кhbqz</span></div></a></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end" href="javascript:;" data-title="Ретрит" data-description="This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. This is a simple event, using the Zap Calendar PHP library. " data-id="3096" data-location="Москва, Красная площадь" data-time="10:20" data-date="01 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/04/dsc_0998-1-570x360.jpg" data-permalink="http://ik.q7.by/events/retreat/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%A0%D0%B5%D1%82%D1%80%D0%B8%D1%82&amp;dates=20210601T102000/20210602T112100&amp;location=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C&amp;details=This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+This+is+a+simple+event%2C+using+the+Zap+Calendar+PHP+library.+" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3096">
+                                            <div class="fc-content"><span class="fc-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut!</span></div></a></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top"><span class="fc-day-number">7</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">8</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">9</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">10</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">11</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">12</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">13</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-today"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top"><span class="fc-day-number">14</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">15</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">16</span></td>
+                                        <td class="fc-day-top fc-today"><span class="fc-day-number">17</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">18</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">19</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">20</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="мероприятие для отладки календаря 12-26" data-description="Краткое описание событие												  asdsadsadsd" data-id="3820" data-location="Киев" data-time="12:00" data-date="12 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&amp;dates=20210612T000000/20210626T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820">
+                                            <div class="fc-content"><span class="fc-title">мероприятие для отладки календаря 12-26</span></div></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                        <td class="fc-day fc-widget-content fc-sun"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top"><span class="fc-day-number">21</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">22</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">23</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">24</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">25</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">26</span></td>
+                                        <td class="fc-day-top fc-sun"><span class="fc-day-number">27</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-end" href="javascript:;" data-title="мероприятие для отладки календаря 12-26" data-description="Краткое описание событие												  asdsadsadsd" data-id="3820" data-location="Киев" data-time="12:00" data-date="12 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&amp;dates=20210612T000000/20210626T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820">
+                                            <div class="fc-content"><span class="fc-title">мероприятие для отладки календаря 12-26</span></div></a></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-end" href="javascript:;" data-title="мероприятие для отладки календаря 12-26" data-description="Краткое описание событие												  asdsadsadsd" data-id="3820" data-location="Киев" data-time="12:00" data-date="12 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&amp;dates=20210612T000000/20210626T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820">
+                                            <div class="fc-content"><span class="fc-title">мероприятие для отладки календаря 12-26</span></div></a></td>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-end" href="javascript:;" data-title="мероприятие для отладки календаря 12-26" data-description="Краткое описание событие												  asdsadsadsd" data-id="3820" data-location="Киев" data-time="12:00" data-date="12 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8+%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8F+12-26&amp;dates=20210612T000000/20210626T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%0D%0Aasdsadsadsd" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3820">
+                                            <div class="fc-content"><span class="fc-title">мероприятие для отладки календаря 12-26</span></div></a></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content has-events"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-sun fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-sun fc-other-month"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top"><span class="fc-day-number">28</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">29</span></td>
+                                        <td class="fc-day-top"><span class="fc-day-number">30</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">1</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">2</span></td>
+                                        <td class="fc-day-top fc-sun fc-other-month"><span class="fc-day-number">3</span></td>
+                                        <td class="fc-day-top fc-sun fc-other-month"><span class="fc-day-number">4</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="fc-row fc-week fc-widget-content">
+                                <div class="fc-bg">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-day fc-widget-content fc-other-month has-events"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-sun fc-other-month"></td>
+                                        <td class="fc-day fc-widget-content fc-sun fc-other-month"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="fc-content-skeleton">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">5</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">6</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">7</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">8</span></td>
+                                        <td class="fc-day-top fc-other-month"><span class="fc-day-number">9</span></td>
+                                        <td class="fc-day-top fc-sun fc-other-month"><span class="fc-day-number">10</span></td>
+                                        <td class="fc-day-top fc-sun fc-other-month"><span class="fc-day-number">11</span></td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="fc-event-container" colspan="1"><a class="fc-day-grid-event fc-h-event fc-event fc-not-start fc-not-end" href="javascript:;" data-title="3-7" data-description="Краткое описание событие" data-id="3831" data-location="Киев" data-time="12:00" data-date="03 июня" data-img="http://ik.q7.by/wp-content/uploads/2021/06/babaji_square-570x410.jpg" data-permalink="http://ik.q7.by/events/testovoe-meropriyatie-dlya-otladki-kalendarya-3/" data-google="https://www.google.com/calendar/event?action=TEMPLATE&amp;text=3-7&amp;dates=20210603T000000/20210714T000000&amp;location=%D0%9A%D0%B8%D0%B5%D0%B2&amp;details=%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5" data-apple="/wp-content/themes/imram-kriya-custom/generate-ical.php?post_id=3831">
+                                            <div class="fc-content"><span class="fc-title fc-title--red">Ножевой бой</span></div></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container"> 
+          <div class="training">
+            <div class="slider-four--title fz__39">ДРУГИЕ КУРСЫ</div>
+            <div class="swiper slider-four js--training">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--1.png" srcset="./img/training--1.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Безопасность <br>в транспорте»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--2.png" srcset="./img/training--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Тактический<br>травмат»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--3.png" srcset="./img/training--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Курс <br> «Оператор АК. База»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--4.png" srcset="./img/training--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Основы <br>доврачебной помощи»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--2.png" srcset="./img/training--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Тактический<br>травмат»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--3.png" srcset="./img/training--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Курс <br> «Оператор АК. База»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--4.png" srcset="./img/training--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Основы <br>доврачебной помощи»
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer"> 
+      <div class="container">
+        <div class="footer--title fz__39">КОНТАКТНЫЕ ДАННЫЕ</div>
+        <div class="footer--row footer--row--one">
+          <div class="footer--col">
+            <div class="footer__contacts">
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg> 
+                </div><a class="footer__contact--link" href="tel:+79998887765">+7 (999) 888 77-65    </a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>                         
+                </div><a class="footer__contact--link" href="tel:+79998887765">+7 (999) 888 77-65</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_143)">
+<path d="M26.1177 3.5293H3.88235C2.2255 3.5293 0.882355 4.87244 0.882355 6.5293V23.4705C0.882355 25.1273 2.2255 26.4705 3.88235 26.4705H26.1177C27.7745 26.4705 29.1176 25.1273 29.1176 23.4705V6.5293C29.1176 4.87244 27.7745 3.5293 26.1177 3.5293Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M0.833332 7.5C0.833332 7.5 11.7445 16.6695 12.6334 17.4156C13.5223 18.1618 14.4479 18.3333 15 18.3333C15.5521 18.3333 16.4777 18.1624 17.3666 17.4162C18.2555 16.6701 29.1667 7.50057 29.1667 7.50057" stroke="#CA3232" stroke-width="1.9959" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_143">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">email@wolk.ru</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_148)">
+<path d="M24 10.2002C24 18.3626 15 28.8002 15 28.8002C15 28.8002 6 18.557 6 10.2002C6 5.2292 10.029 1.2002 15 1.2002C19.9704 1.2002 24 5.2292 24 10.2002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M15 14.4002C16.9882 14.4002 18.6 12.7884 18.6 10.8002C18.6 8.81197 16.9882 7.2002 15 7.2002C13.0118 7.2002 11.4 8.81197 11.4 10.8002C11.4 12.7884 13.0118 14.4002 15 14.4002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_343_148">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">г. Москва, ул. Ленина 47а, 3 этаж</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_148)">
+<path d="M24 10.2002C24 18.3626 15 28.8002 15 28.8002C15 28.8002 6 18.557 6 10.2002C6 5.2292 10.029 1.2002 15 1.2002C19.9704 1.2002 24 5.2292 24 10.2002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M15 14.4002C16.9882 14.4002 18.6 12.7884 18.6 10.8002C18.6 8.81197 16.9882 7.2002 15 7.2002C13.0118 7.2002 11.4 8.81197 11.4 10.8002C11.4 12.7884 13.0118 14.4002 15 14.4002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_343_148">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">г. Москва, пр-кт Карла Маркса 37, въезд со стороны ворот</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="top-banner__soc"><a class="top-banner__soc--item" href="#"><img src="img/svg/vk--banner.svg" alt=""></a><a class="top-banner__soc--item" href="#"><img src="img/svg/inst--banner.svg" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer--col">
+            <div class="footer__map"><img src="img/map.png" alt=""></div>
+          </div>
+        </div>
+        <div class="footer--title fz__39">ХОТИТЕ НАУЧИТЬСЯ САМООБОРОНЕ?</div>
+        <div class="footer--subtitle fz__24">Если вы хотите стать участником клуба и пройти курс по самообороне, оставьте заявку в форме справа, и мы вам обязательно перезвоним</div>
+        <div class="footer--row">
+          <div class="footer__form">
+            <form>
+              <div class="form__block__wrap">
+                <div class="form__block-double">
+                  <div class="form__block"> 
+                    <label for=""><b></b>
+                      <input type="text" placeholder="Фамилия">
+                    </label>
+                  </div>
+                  <div class="form__block"> 
+                    <label for=""><b></b>
+                      <input class="js-mask-phone" type="tel" name="" placeholder="Ваш телефон">
+                    </label>
+                  </div>
+                </div>
+                <div class="form__block form__block--assent"><label class="form__block--checkbox">
+<input type="checkbox" checked="checked">
+<span class="checkmark"></span>
+                  <p>Соглашаюсь с условиями<a class="link--one"> политики конфиденциальности</a>
+                  </p></label><a class="button form__block--button">ОТПРАВИТЬ</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer--row footer--row--finish">
+        <div class="container">
+          <div class="footer__finish"><a class="footer__logo" href="index.html"><img src="img/svg/logo_wolk.svg" alt=""></a>
+            <div class="footer__text"> 
+              <p> © 2023, все права защищены. Разработано в <a class="link--one" href="https://mockup.digital">MD</a>
+              </p>
+            </div>
+            <div class="top-banner__soc"><a class="top-banner__soc--item" href="#"><img src="img/svg/vk--banner.svg" alt=""></a><a class="top-banner__soc--item" href="#"><img src="img/svg/inst--banner.svg" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

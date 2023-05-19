@@ -1,0 +1,23 @@
+// Переменные, миксины, функции
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+
+// CSS-файлы библиотек
+@import "vendor/libs";
+
+// CSS-файлы страницы
+@import "vendor/page/index.scss";
+@import "vendor/page/review-page.scss";
+@import "vendor/page/text-page.scss";
+@import "vendor/page/course-page.scss";
+@import "vendor/page/calendar.scss";
+
+// Основное
+@import "base/fonts";
+@import "base/general";
+
+// БЭМ-блоки
+@import "../blocks/modules/modules";
+// components
+@import "../blocks/components/components.scss";

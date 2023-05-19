@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Main page</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="section__header"> 
+        <div class="container">
+          <div class="header__decs"> <img class="header__decs__logo" src="img/svg/logo_wolk.svg" alt="logo">
+            <ul class="header__menu"> 
+              <li class="header__menu--item"><a href="#">О центре</a></li>
+              <li class="header__menu--item"><a href="#">Расписание занятий</a></li>
+              <li class="header__menu--item"><a href="#">Анонсы курсов</a></li>
+              <li class="header__menu--item"><a href="#">О центре</a></li>
+              <li class="header__menu--item"><a href="#">Наши инструкторы</a></li>
+              <li class="header__menu--item"><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="header__other">
+            <div class="header__other__soc"><a class="header__other__soc__icon" href="tel:+79998887765"> <img src="img/svg/header-phone.svg" alt="icon">+7 (999) 888 77-65</a><a class="header__other__soc__icon" href="mailto:email@wolk.ru"><img src="img/svg/header-Email.svg" alt="icon">email@wolk.ru</a></div>
+          </div>
+          <div class="header__other__mob"> <a class="header__other__humb"><img src="img/svg/humb.svg" alt="icon"></a></div>
+        </div>
+      </div>
+      <div class="section__mob-menu">	
+        <div class="mob-menu--overlay"></div>
+        <div class="mob-menu">
+          <div class="mob-menu--close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 18L10 10M18 18L10 10M2 2L10 10M18 2L10 10" stroke="#031B4B" stroke-width="1.5" stroke-linecap="square"/>
+</svg>	
+          </div>
+          <ul class="mob-menu--list">
+            <li class="mob-menu--item"><a href="#">О центре</a></li>
+            <li class="mob-menu--item"><a href="#">Расписание занятий</a></li>
+            <li class="mob-menu--item"><a href="#">Анонсы курсов</a></li>
+            <li class="mob-menu--item"><a href="#">О центре</a></li>
+            <li class="mob-menu--item"><a href="#">Наши инструкторы</a></li>
+            <li class="mob-menu--item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="header__other">
+            <div class="header__other__soc"><a class="header__other__soc__icon" href="tel:+79998887765">
+                 <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg> +7 (999) 888 77-65</a><a class="header__other__soc__icon" href="mailto:email@wolk.ru"><svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_143)">
+<path d="M26.1177 3.5293H3.88235C2.2255 3.5293 0.882355 4.87244 0.882355 6.5293V23.4705C0.882355 25.1273 2.2255 26.4705 3.88235 26.4705H26.1177C27.7745 26.4705 29.1176 25.1273 29.1176 23.4705V6.5293C29.1176 4.87244 27.7745 3.5293 26.1177 3.5293Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M0.833332 7.5C0.833332 7.5 11.7445 16.6695 12.6334 17.4156C13.5223 18.1618 14.4479 18.3333 15 18.3333C15.5521 18.3333 16.4777 18.1624 17.3666 17.4162C18.2555 16.6701 29.1667 7.50057 29.1667 7.50057" stroke="#CA3232" stroke-width="1.9959" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_143">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>email@wolk.ru</a></div>
+          </div>
+        </div>
+      </div>
+      <section class="top-banner">
+        <div class="container"> 
+          <div class="top-banner__content">
+            <h1 class="top-banner__title fz__39">Международный центр боевой и специальной подготовки «Волк»</h1>
+            <div class="top-banner__text fz__24">Основные направление работы Центра, это проведение учебно-практических мероприятий для гражданских  людейи специалистов в области безопасности
+            </div><a class="top-banner__button button" href="">ПОДРОБНЕЕ</a>
+          </div>
+          <div class="top-banner__soc"><a class="top-banner__soc--item" href="#"><img src="img/svg/vk--banner.svg" alt=""></a><a class="top-banner__soc--item" href="#"><img src="img/svg/inst--banner.svg" alt=""></a></div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container">
+          <div class="video-reviews__bg video-reviews__bg--1"><img src="img/block-content__bg--1.png" alt=""></div>
+          <div class="video-reviews__bg video-reviews__bg--2"><img src="img/block-content__bg--1.png" alt=""></div>
+          <div class="video-reviews">
+            <div class="slider-tree--title fz__39">ВИДЕООБЗОРЫ КУРСОВ</div>
+            <div class="swiper slider-tree js--video-reviews">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--1.png" srcset="./img/video-reviews--1.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">Тактика боя с ножом</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--2.png" srcset="./img/video-reviews--2.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">Личная безопасность</div>
+                  </div>
+                </div>
+                <div class="swiper-slide video--black"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">«Подготовка сотрудников личной охраны»								</div>
+                    <div class="slider-tree--treeTitle">Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении...								</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/about-3.jpg" srcset="./img/about-3.jpg 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">«Подготовка сотрудников личной охраны»								</div>
+                    <div class="slider-tree--treeTitle">Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении...								</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a></div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a></div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--black">
+        <div class="container"> 
+          <div class="training__bg training__bg--1"><img src="img/training__bg--2.png" alt=""></div>
+          <div class="training__bg training__bg--2"><img src="img/training__bg--1.png" alt=""></div>
+          <div class="training">
+            <div class="slider-four--title fz__39">КУРСЫ И ПРОГРАММЫ ОБУЧЕНИЯ</div>
+            <div class="swiper slider-four js--training">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--1.png" srcset="./img/training--1.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Безопасность <br>в транспорте»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--2.png" srcset="./img/training--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Тактический<br>травмат»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--3.png" srcset="./img/training--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Курс <br> «Оператор АК. База»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--4.png" srcset="./img/training--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Основы <br>доврачебной помощи»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--2.png" srcset="./img/training--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Тактический<br>травмат»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--3.png" srcset="./img/training--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Курс <br> «Оператор АК. База»
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/training--4.png" srcset="./img/training--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> «Основы <br>доврачебной помощи»
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container"> 
+          <div class="courses">
+            <div class="slider-tree--title fz__39">ПРОФЕССИОНАЛЬНЫЕ КУРСЫ ДЛЯ СПЕЦИАЛИСТОВ В ОБЛАСТИ БЕЗОПАСНОСТИ</div>
+            <div class="swiper slider-tree js--courses">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--1.png" srcset="./img/video-reviews--1.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">Тактика боя с ножом</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--2.png" srcset="./img/video-reviews--2.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">Личная безопасность</div>
+                  </div>
+                </div>
+                <div class="swiper-slide video--black"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">«Подготовка сотрудников личной охраны»								</div>
+                    <div class="slider-tree--treeTitle">Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении...								</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/about-3.jpg" srcset="./img/about-3.jpg 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a>
+                  <div class="slider-tree--text">
+                    <div class="slider-tree--subtitle">«Подготовка сотрудников личной охраны»								</div>
+                    <div class="slider-tree--treeTitle">Равным образом консультация с широким активом влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении...								</div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt="">
+                    <div class="video-reviews__play"><img src="img/svg/i-play-2.svg" alt=""></div></a></div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"><img class="video-reviews__preview" src="img/video-reviews--3.png" srcset="./img/video-reviews--3.png 2x" alt=""></a></div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--black">
+        <div class="container">
+          <div class="certificates__bg certificates__bg--1"><img src="img/certificates__bg--1.png" alt=""></div>
+          <div class="certificates__bg certificates__bg--2"><img src="img/certificates__bg--1.png" alt=""></div>
+          <div class="certificates">
+            <div class="slider-four--title fz__39">РАБОТА ЦЕНТРА ОТМЕЧЕННА</div>
+            <div class="swiper slider-four js--certificates">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/certificates--1.png" srcset="./img/certificates--1.png 2x" alt=""></div><a class="slider-four--button" href="#">МАСАД</a>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/certificates--2.png" srcset="./img/certificates--2.png 2x" alt=""></a><a class="slider-four--button" href="#">МВД РФ</a></div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/certificates--3.png" srcset="./img/certificates--3.png 2x" alt=""></a><a class="slider-four--button" href="#">СЕРБИЯ</a></div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/certificates--4.png" srcset="./img/certificates--4.png 2x" alt=""></a><a class="slider-four--button" href="#">ТАЙВАНЬ</a></div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/certificates--4.png" srcset="./img/certificates--4.png 2x" alt=""></a><a class="slider-four--button" href="#">ТАЙВАНЬ</a></div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content block-content--nearest-event bg--white">
+        <div class="container">
+          <div class="nearest-event">
+            <div class="slider-four--title fz__39">БЛИЖАЙШИЕ МЕРОПРИЯТИЯ		</div>
+            <div class="nearest-event__card"> 
+              <div class="nearest-event__card--title">
+                <div class="nearest-event__card--date">30 АПРЕЛЯ</div>
+                <div class="nearest-event__card--time">15:00</div>
+                <div class="nearest-event__card--location">подмосковье</div>
+              </div>
+              <div class="nearest-event__card--subtitle">мастер класс мастеров ножевого боя и комплексной самообороны</div>
+              <div class="nearest-event__card--row">
+                <div class="nearest-event__card--col">
+                  <div class="nearest-event__card--picture"><img src="img/nearest-event__card--picture--1.png" alt=""></div>
+                </div>
+                <div class="nearest-event__card--col">
+                  <div class="nearest-event__card--desc"> Постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке новых предложений. Задача организациив особенности же укрепление и развитие структуры позволяет оценить значение дальнейших направлений развития.
+                  </div>
+                  <div class="nearest-event__card--timer"><div id="clock">
+<div class="clock__title">ОСТАЛОСЬ ДО НАЧАЛА:</div>
+<div class="clock__wrap">
+<div class="clock__item">
+<span class="days"></span>
+<div class="smalltext">дней</div>
+</div>
+<div class="clock__colon">:</div>
+<div class="clock__item">
+<span class="hours"></span>
+<div class="smalltext">ЧАСОВ</div>
+</div>
+<div class="clock__colon">:</div>
+<div class="clock__item">
+<span class="minutes"></span>
+<div class="smalltext">МИНУТ</div>
+</div>
+</div>
+                  </div>
+                </div>
+              </div></div>								
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container">
+          <div class="nearest__bg nearest__bg--1"><img src="img/nearest__bg--1.png" alt=""></div>
+          <div class="nearest__bg nearest__bg--2"><img src="img/nearest__bg--1.png" alt=""></div>
+          <div class="nearest">
+            <div class="slider-four--title fz__39">БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</div>
+            <div class="swiper slider-four js--nearest">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--1.png" srcset="./img/nearest--1.png 2x" alt=""></div>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Комплексная <br>самооборона
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--2.png" srcset="./img/nearest--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Ножевой бой
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--3.png" srcset="./img/nearest--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Детская самооборона
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--4.png" srcset="./img/nearest--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Spec fit pro
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--4.png" srcset="./img/nearest--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Spec fit pro
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--2.png" srcset="./img/nearest--2.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Ножевой бой
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--3.png" srcset="./img/nearest--3.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle">Детская самооборона
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--4.png" srcset="./img/nearest--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Spec fit pro
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide"><a class="video-reviews__video" href="#"><img class="video-reviews__preview" src="img/nearest--4.png" srcset="./img/nearest--4.png 2x" alt=""></a>
+                  <div class="slider-four--text">
+                    <div class="slider-four--subtitle"> Spec fit pro
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--black">
+        <div class="container">
+          <div class="instructors__bg instructors__bg--1"><img src="img/instructor__bg--2.png" alt=""></div>
+          <div class="instructors__bg instructors__bg--2"><img src="img/instructor__bg--1.png" alt=""></div>
+          <div class="instructors">
+            <div class="slider-four--title fz__39">НАШИ ИНСТРУКТОРЫ</div>
+            <div class="swiper slider-four js--instructors">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="instructor">
+                    <div class="instructor--col">
+                      <div class="instructor--picture"><img src="img/instructor--picture--1.png" alt=""></div>
+                    </div>
+                    <div class="instructor--col">
+                      <div class="instructor--name">Иван Петров</div>
+                      <div class="instructor--desc"> 
+                        <p> Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности способствует подготовки и реализации новых предложений.
+                        </p><br>
+                        <p> Идейные соображения высшего порядка, а также начало повседневной работыпо формированию позиции играет важную роль в формировании существенныхфинансовых и административных условий. Товарищи! сложившаяся структура организации позволяет выполнять важные задания по разработке форм развития. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.
+                        </p><br>
+                      </div>
+                      <div class="instructor--certificates--title">Награды преподавателя</div>
+                      <div class="instructor--certificates">
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                      </div><a class="instructor__button button" href="">ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="instructor">
+                    <div class="instructor--col">
+                      <div class="instructor--picture"><img src="img/nearest-event__card--picture--1.png" alt=""></div>
+                    </div>
+                    <div class="instructor--col">
+                      <div class="instructor--name">Иван Петров</div>
+                      <div class="instructor--desc"> 
+                        <p> Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности способствует подготовки и реализации новых предложений.
+                        </p><br>
+                        <p> Идейные соображения высшего порядка, а также начало повседневной работыпо формированию позиции играет важную роль в формировании существенныхфинансовых и административных условий. Товарищи! сложившаяся структура организации позволяет выполнять важные задания по разработке форм развития. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.
+                        </p><br>
+                      </div>
+                      <div class="instructor--certificates--title">Награды преподавателя</div>
+                      <div class="instructor--certificates">
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                      </div><a class="instructor__button button" href="">ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="instructor">
+                    <div class="instructor--col">
+                      <div class="instructor--picture"><img src="img/video-reviews--2.png" alt=""></div>
+                    </div>
+                    <div class="instructor--col">
+                      <div class="instructor--name">Иван Петров</div>
+                      <div class="instructor--desc"> 
+                        <p> Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности способствует подготовки и реализации новых предложений.
+                        </p><br>
+                        <p> Идейные соображения высшего порядка, а также начало повседневной работыпо формированию позиции играет важную роль в формировании существенныхфинансовых и административных условий. Товарищи! сложившаяся структура организации позволяет выполнять важные задания по разработке форм развития. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.
+                        </p><br>
+                      </div>
+                      <div class="instructor--certificates--title">Награды преподавателя</div>
+                      <div class="instructor--certificates">
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                        <div class="instructor--certificat"><img src="img/instructor--certificat.png" alt=""></div>
+                      </div><a class="instructor__button button" href="">ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-content bg--white">
+        <div class="container">
+          <div class="reviews__bg reviews__bg--1"><img src="img/reviews__bg--2.png" alt=""></div>
+          <div class="reviews__bg reviews__bg--2"><img src="img/reviews__bg--1.png" alt=""></div>
+          <div class="reviews">
+            <div class="slider-tree--title fz__39">ОТЗЫВЫ<a class="link--one">Отзывы на Яндексе</a><a class="link--one">Отзывы ВК</a>
+            </div>
+            <div class="swiper slider-tree reviews--slider-tree js--reviews">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="review foto">
+                    <div class="review--col">
+                      <div class="review--name">Анастасия Николаева</div>
+                      <div class="review--stars"><div class="rating">
+<input type="radio" id="star1" name="rating" value="1" />
+<label for="star1"></label>
+<input type="radio" id="star2" name="rating" value="2" />
+<label for="star2"></label>													
+<input type="radio" id="star3" name="rating" value="3" />
+<label for="star3"></label>													
+<input type="radio" id="star4" name="rating" value="4" />
+<label for="star4"></label>													
+<input type="radio" id="star5" name="rating" value="5" />
+<label for="star5"></label>
+</div>
+                      </div>
+                      <div class="review--desc"> Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого...
+                      </div>
+                    </div>
+                    <div class="review--col">
+                      <div class="swiper slider-tree review--slider js--review--item">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="review--slider--picture"><img class="video-reviews__preview" src="img/video-reviews--5.png" srcset="./img/video-reviews--5.png 2x" alt=""></div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="review--slider--picture"><img class="video-reviews__preview" src="img/video-reviews--2.png" srcset="./img/video-reviews--2.png 2x" alt=""></div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="review--slider--picture"><img class="video-reviews__preview" src="img/about-3.jpg" srcset="./img/about-3.jpg 2x" alt=""></div>
+                          </div>
+                        </div>
+                        <div class="review--slider--nav">
+                          <div class="swiper-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>											
+                          </div>
+                          <div class="swiper-pagination"></div>
+                          <div class="swiper-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review">
+                    <div class="review--col">
+                      <div class="review--name">Анастасия Николаева</div>
+                      <div class="review--stars"><div class="rating">
+<input type="radio" id="star1" name="rating" value="1" />
+<label for="star1"></label>
+<input type="radio" id="star2" name="rating" value="2" />
+<label for="star2"></label>													
+<input type="radio" id="star3" name="rating" value="3" />
+<label for="star3"></label>													
+<input type="radio" id="star4" name="rating" value="4" />
+<label for="star4"></label>													
+<input type="radio" id="star5" name="rating" value="5" />
+<label for="star5"></label>
+</div>
+                      </div>
+                      <div class="review--desc"> Равным образом, выбранный нами инновационный путь
+                      </div><a class="review--button link--one">+ 3 фото</a>
+                    </div>
+                    <div class="review--col"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review">
+                    <div class="review--col">
+                      <div class="review--name">Анастасия Николаева</div>
+                      <div class="review--stars"><div class="rating">
+<input type="radio" id="star1" name="rating" value="1" />
+<label for="star1"></label>
+<input type="radio" id="star2" name="rating" value="2" />
+<label for="star2"></label>													
+<input type="radio" id="star3" name="rating" value="3" />
+<label for="star3"></label>													
+<input type="radio" id="star4" name="rating" value="4" />
+<label for="star4"></label>													
+<input type="radio" id="star5" name="rating" value="5" />
+<label for="star5"></label>
+</div>
+                      </div>
+                      <div class="review--desc"> Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого...
+                      </div><a class="review--button link--one">+ 3 фото</a>
+                    </div>
+                    <div class="review--col"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review">
+                    <div class="review--col">
+                      <div class="review--name">Анастасия Николаева</div>
+                      <div class="review--stars"><div class="rating">
+<input type="radio" id="star1" name="rating" value="1" />
+<label for="star1"></label>
+<input type="radio" id="star2" name="rating" value="2" />
+<label for="star2"></label>													
+<input type="radio" id="star3" name="rating" value="3" />
+<label for="star3"></label>													
+<input type="radio" id="star4" name="rating" value="4" />
+<label for="star4"></label>													
+<input type="radio" id="star5" name="rating" value="5" />
+<label for="star5"></label>
+</div>
+                      </div>
+                      <div class="review--desc"> Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого...
+                      </div><a class="review--button link--one">+ 3 фото</a>
+                    </div>
+                    <div class="review--col"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review">
+                    <div class="review--col">
+                      <div class="review--name">Анастасия Николаева</div>
+                      <div class="review--stars"><div class="rating">
+<input type="radio" id="star1" name="rating" value="1" />
+<label for="star1"></label>
+<input type="radio" id="star2" name="rating" value="2" />
+<label for="star2"></label>													
+<input type="radio" id="star3" name="rating" value="3" />
+<label for="star3"></label>													
+<input type="radio" id="star4" name="rating" value="4" />
+<label for="star4"></label>													
+<input type="radio" id="star5" name="rating" value="5" />
+<label for="star5"></label>
+</div>
+                      </div>
+                      <div class="review--desc"> Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого...
+                      </div><a class="review--button link--one">+ 3 фото</a>
+                    </div>
+                    <div class="review--col"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next swiper-reviews-button-next"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+              <div class="swiper-button-prev swiper-reviews-button-prev"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+</svg>
+              </div>
+            </div>
+          </div>
+          <div class="reviews--buttons"><a class="button" href="">НАПИСАТЬ ОТЗЫВ</a><a class="button button--outline" href="">ВСЕ ОТЗЫВЫ</a></div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer"> 
+      <div class="container">
+        <div class="footer--title fz__39">КОНТАКТНЫЕ ДАННЫЕ</div>
+        <div class="footer--row footer--row--one">
+          <div class="footer--col">
+            <div class="footer__contacts">
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg> 
+                </div><a class="footer__contact--link" href="tel:+79998887765">+7 (999) 888 77-65    </a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_132)">
+<path d="M18.0797 21.0519C18.0797 21.0519 20.4697 19.6836 21.0954 19.3548C21.7194 19.0248 22.3657 18.9416 22.7582 19.1813C23.3527 19.5449 28.344 22.8652 28.7643 23.1592C29.1846 23.4538 29.387 24.2949 28.8092 25.119C28.2336 25.943 25.5786 29.2014 24.4535 29.1666C23.3267 29.13 18.6417 29.0272 9.807 20.1901C0.974114 11.3558 0.869635 6.66953 0.833628 5.54267C0.797621 4.4164 4.05594 1.7607 4.87997 1.18458C5.70518 0.609047 6.5475 0.825682 6.84028 1.23062C7.17319 1.69163 10.4551 6.66716 10.8164 7.23738C11.0637 7.62697 10.9728 8.27688 10.6428 8.9014C10.3146 9.52711 8.94638 11.9172 8.94638 11.9172C8.94638 11.9172 9.91089 13.5623 13.1728 16.8236C16.4352 20.0856 18.0797 21.0519 18.0797 21.0519Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_132">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>                         
+                </div><a class="footer__contact--link" href="tel:+79998887765">+7 (999) 888 77-65</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_143)">
+<path d="M26.1177 3.5293H3.88235C2.2255 3.5293 0.882355 4.87244 0.882355 6.5293V23.4705C0.882355 25.1273 2.2255 26.4705 3.88235 26.4705H26.1177C27.7745 26.4705 29.1176 25.1273 29.1176 23.4705V6.5293C29.1176 4.87244 27.7745 3.5293 26.1177 3.5293Z" stroke="#CA3232" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M0.833332 7.5C0.833332 7.5 11.7445 16.6695 12.6334 17.4156C13.5223 18.1618 14.4479 18.3333 15 18.3333C15.5521 18.3333 16.4777 18.1624 17.3666 17.4162C18.2555 16.6701 29.1667 7.50057 29.1667 7.50057" stroke="#CA3232" stroke-width="1.9959" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_343_143">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">email@wolk.ru</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_148)">
+<path d="M24 10.2002C24 18.3626 15 28.8002 15 28.8002C15 28.8002 6 18.557 6 10.2002C6 5.2292 10.029 1.2002 15 1.2002C19.9704 1.2002 24 5.2292 24 10.2002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M15 14.4002C16.9882 14.4002 18.6 12.7884 18.6 10.8002C18.6 8.81197 16.9882 7.2002 15 7.2002C13.0118 7.2002 11.4 8.81197 11.4 10.8002C11.4 12.7884 13.0118 14.4002 15 14.4002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_343_148">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">г. Москва, ул. Ленина 47а, 3 этаж</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="footer__contact--icon">
+                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_343_148)">
+<path d="M24 10.2002C24 18.3626 15 28.8002 15 28.8002C15 28.8002 6 18.557 6 10.2002C6 5.2292 10.029 1.2002 15 1.2002C19.9704 1.2002 24 5.2292 24 10.2002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M15 14.4002C16.9882 14.4002 18.6 12.7884 18.6 10.8002C18.6 8.81197 16.9882 7.2002 15 7.2002C13.0118 7.2002 11.4 8.81197 11.4 10.8002C11.4 12.7884 13.0118 14.4002 15 14.4002Z" stroke="#CA3232" stroke-width="1.7647" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_343_148">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+                </div><a class="footer__contact--link" href="mailto:">г. Москва, пр-кт Карла Маркса 37, въезд со стороны ворот</a>
+              </div>
+              <div class="footer__contact"> 
+                <div class="top-banner__soc"><a class="top-banner__soc--item" href="#"><img src="img/svg/vk--banner.svg" alt=""></a><a class="top-banner__soc--item" href="#"><img src="img/svg/inst--banner.svg" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer--col">
+            <div class="footer__map"><img src="img/map.png" alt=""></div>
+          </div>
+        </div>
+        <div class="footer--title fz__39">ХОТИТЕ НАУЧИТЬСЯ САМООБОРОНЕ?</div>
+        <div class="footer--subtitle fz__24">Если вы хотите стать участником клуба и пройти курс по самообороне, оставьте заявку в форме справа, и мы вам обязательно перезвоним</div>
+        <div class="footer--row">
+          <div class="footer__form">
+            <form>
+              <div class="form__block__wrap">
+                <div class="form__block-double">
+                  <div class="form__block"> 
+                    <label for=""><b></b>
+                      <input type="text" placeholder="Фамилия">
+                    </label>
+                  </div>
+                  <div class="form__block"> 
+                    <label for=""><b></b>
+                      <input class="js-mask-phone" type="tel" name="" placeholder="Ваш телефон">
+                    </label>
+                  </div>
+                </div>
+                <div class="form__block form__block--assent"><label class="form__block--checkbox">
+<input type="checkbox" checked="checked">
+<span class="checkmark"></span>
+                  <p>Соглашаюсь с условиями<a class="link--one"> политики конфиденциальности</a>
+                  </p></label><a class="button form__block--button">ОТПРАВИТЬ</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer--row footer--row--finish">
+        <div class="container">
+          <div class="footer__finish"><a class="footer__logo" href="index.html"><img src="img/svg/logo_wolk.svg" alt=""></a>
+            <div class="footer__text"> 
+              <p> © 2023, все права защищены. Разработано в <a class="link--one" href="https://mockup.digital">MD</a>
+              </p>
+            </div>
+            <div class="top-banner__soc"><a class="top-banner__soc--item" href="#"><img src="img/svg/vk--banner.svg" alt=""></a><a class="top-banner__soc--item" href="#"><img src="img/svg/inst--banner.svg" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

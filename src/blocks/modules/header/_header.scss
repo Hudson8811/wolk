@@ -1,0 +1,341 @@
+.section__header {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	background: $black;
+	.container {
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 9px 95px;
+		max-width: 1920px;
+		@include max(xxl) {
+			padding: 9px 35px;
+		}
+		@include max(lg) {
+			//1024
+			box-sizing: border-box;
+			max-width: 95%;
+			margin: 0 auto;			
+			width: 1168px;
+			padding: 0;
+			max-width: calc(100% - 32px * 2);
+		}
+	
+		@include max(md) {
+			//640
+			max-width: calc(100% - 32px * 2);
+			padding-left: 0;
+			padding-right: 0;
+		}
+	
+		@include max(sm) {
+			//375
+			max-width: calc(100% - 20px * 2);
+		}
+	}
+}
+.header__menu {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	flex-flow: row nowrap;
+	@include max(lg) {
+		display: none;
+	}
+	&--item  {
+		position: relative;
+		width: auto;
+		margin-right: 45px;
+		font-family: 'GolosText';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 19px;
+		line-height: 23px;
+		color: #FFFFFF;
+		&:hover {
+			a {
+				text-decoration: underline;
+			}
+		}
+		@include max(xxl) {
+			margin-right: 20px;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+		a {
+			position: relative;
+			width: 100%;
+			font-family: 'GolosText';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 19px;
+			line-height: 23px;
+			color: #FFFFFF;
+			text-decoration: none;			
+		}
+	}
+}
+.header__decs {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	&__logo {
+		position: relative;
+		display: inline-block;
+		width: 94px;
+		height: 94px;
+		object-fit: contain;
+		margin-right: 71px;
+		@include max(xxl) {
+			margin-right: 30px;
+		}
+		@include max(md) {
+			width: 54px;
+			height: 54px;			
+		}
+	}
+	&__name {
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 28px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	
+}
+.header__other {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	max-width: 410px;
+	@include max(xl) {
+		display: none;
+	}
+	&__soc{
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		font-family: 'Golos Text';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 19px;
+		line-height: 23px;
+		color: #FFFFFF;
+
+		&__icon {
+			position: relative;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			text-decoration: none;
+			margin-right: 12px;
+			font-family: 'GolosText';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 19px;
+			line-height: 23px;
+			color: #FFFFFF;
+			margin-right: 19px;
+			&:last-child {
+				margin-right: 0;
+			}	
+			img {
+				width: 30px;
+				height: 30px;
+				object-fit: contain;
+				object-position: 50% 50%;
+				margin-right: 20px;
+				margin-right: 13px;
+			}
+			&:hover {
+				text-decoration: underline;
+	
+			}	
+
+		}
+	}
+	&__lang {
+		position: relative;
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 16px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+}
+.header__other__mob {
+	display: none;
+	@include max(xl) {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 100%;
+		max-width: 100px;
+	}
+}
+
+.section__mob-menu {
+	position: absolute;
+	top: 0;
+	left: 100vw;
+	width: 0vw;
+	height: 0vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	overflow: hidden;
+	transition: all .5s;
+	&.active {
+		transition: all .5s;
+		width: 100vw;
+		height: 100vh;
+		left: 0;
+	}
+	.header__other {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		&__soc {
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+			&__icon {
+				color: #14213D;
+				margin-bottom: 10px;
+				transition: all .3s;
+				&:hover {
+					color: $orange;
+					transition: all .3s;
+				}
+				svg {
+					margin-right: 10px;
+				}	
+			}
+		}
+	}
+}
+.mob-menu {
+	position: relative;
+	display: flex;
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	padding-top: 40px;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	z-index: 999;
+	background: #fff;
+	height: 100vh;
+	&--close {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		right: 10px;
+		top: 10px;
+	}
+	&--overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: rgba(6, 6, 6, 0.592);
+		z-index: 990;
+	}
+	&--list {
+		position: relative;
+		display: flex;
+		flex-flow: column nowrap;
+		width: 100%;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 40px !important;
+	}
+	&--item {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		padding: 5px;
+		min-height: 40px;
+		position: relative;
+		display: flex;
+		font-family: 'GolosText';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 19px;
+		line-height: 23px;
+		color: #14213D;
+		a {
+			position: relative;
+			display: flex;
+			font-family: 'GolosText';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 19px;
+			line-height: 23px;
+			color: #14213D;
+			transition: all .3s;
+			&:hover {
+				color: $orange;
+				transition: all .3s;
+			}
+			text-decoration: none;		
+		}
+	}
+}	
+
+@media (max-width: 1200px) {
+	.header__decs__name span {
+		display: none;
+	}
+	
+}
+@media (max-width: 992px) {
+	.header__decs {
+		justify-content: space-between;
+	}
+	.header__other {
+		display: none;
+	}
+}
+@media (max-width: 576px) {
+	.header__decs__name {
+		font-size: 14px;
+		line-height: 16px; 
+	}
+	.header__decs__logo {
+		margin-right: 16px;
+	}
+	.header__decs {
+		width: 220px;
+		max-width: none;
+	}
+	.header__other__mob {
+		max-width: 100px;
+	}
+}

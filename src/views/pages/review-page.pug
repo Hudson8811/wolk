@@ -1,0 +1,222 @@
+extends ../layouts/default
+include ../helpers/mixins
+
+block variables
+	- const title = "Reviev page"
+
+block content
+	.review__main
+		include ../../blocks/modules/header/header
+
+		section.block-content.bg--white
+			.container
+				.reviews
+					.slider-tree--title.fz__39
+						!="ОТЗЫВЫ"
+						a.link--one Отзывы на Яндексе
+						a.link--one Отзывы ВК
+						
+					.reviews__wrap
+						.review.foto
+							.review--col
+								.review--name Анастасия Николаева
+								.review--stars
+									<div class="rating">
+										<input type="radio" id="star1" name="rating" value="1" />
+										<label for="star1"></label>
+										<input type="radio" id="star2" name="rating" value="2" />
+										<label for="star2"></label>													
+										<input type="radio" id="star3" name="rating" value="3" />
+										<label for="star3"></label>													
+										<input type="radio" id="star4" name="rating" value="4" />
+										<label for="star4"></label>													
+										<input type="radio" id="star5" name="rating" value="5" />
+										<label for="star5"></label>
+									</div>
+								.review--desc 
+									!="Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого..."
+							.review--col
+								.swiper.slider-tree.review--slider.js--review--item
+									.swiper-wrapper
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--5.png', srcset='./img/video-reviews--5.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--2.png', srcset='./img/video-reviews--2.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/about-3.jpg', srcset='./img/about-3.jpg 2x', alt='')
+									
+									.review--slider--nav
+										.swiper-button-prev
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>											
+										.swiper-pagination
+										.swiper-button-next
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+				
+						.review.foto
+							.review--col
+								.review--name Анастасия Николаева
+								.review--stars
+									<div class="rating">
+										<input type="radio" id="star1" name="rating" value="1" />
+										<label for="star1"></label>
+										<input type="radio" id="star2" name="rating" value="2" />
+										<label for="star2"></label>													
+										<input type="radio" id="star3" name="rating" value="3" />
+										<label for="star3"></label>													
+										<input type="radio" id="star4" name="rating" value="4" />
+										<label for="star4"></label>													
+										<input type="radio" id="star5" name="rating" value="5" />
+										<label for="star5"></label>
+									</div>
+								.review--desc 
+									!="Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого..."
+							.review--col
+								.swiper.slider-tree.review--slider.js--review--item
+									.swiper-wrapper
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--5.png', srcset='./img/video-reviews--5.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--2.png', srcset='./img/video-reviews--2.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/about-3.jpg', srcset='./img/about-3.jpg 2x', alt='')
+									
+									.review--slider--nav
+										.swiper-button-prev
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>											
+										.swiper-pagination
+										.swiper-button-next
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+				
+						.review.foto
+							.review--col
+								.review--name Анастасия Николаева
+								.review--stars
+									<div class="rating">
+										<input type="radio" id="star1" name="rating" value="1" />
+										<label for="star1"></label>
+										<input type="radio" id="star2" name="rating" value="2" />
+										<label for="star2"></label>													
+										<input type="radio" id="star3" name="rating" value="3" />
+										<label for="star3"></label>													
+										<input type="radio" id="star4" name="rating" value="4" />
+										<label for="star4"></label>													
+										<input type="radio" id="star5" name="rating" value="5" />
+										<label for="star5"></label>
+									</div>
+								.review--desc 
+									!="Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого..."
+							.review--col
+								.swiper.slider-tree.review--slider.js--review--item
+									.swiper-wrapper
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--5.png', srcset='./img/video-reviews--5.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--2.png', srcset='./img/video-reviews--2.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/about-3.jpg', srcset='./img/about-3.jpg 2x', alt='')
+									
+									.review--slider--nav
+										.swiper-button-prev
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>											
+										.swiper-pagination
+										.swiper-button-next
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+				
+						.review.foto
+							.review--col
+								.review--name Анастасия Николаева
+								.review--stars
+									<div class="rating">
+										<input type="radio" id="star1" name="rating" value="1" />
+										<label for="star1"></label>
+										<input type="radio" id="star2" name="rating" value="2" />
+										<label for="star2"></label>													
+										<input type="radio" id="star3" name="rating" value="3" />
+										<label for="star3"></label>													
+										<input type="radio" id="star4" name="rating" value="4" />
+										<label for="star4"></label>													
+										<input type="radio" id="star5" name="rating" value="5" />
+										<label for="star5"></label>
+									</div>
+								.review--desc 
+									!="Равным образом, выбранный нами инновационный путь играет важную роль в формировании переосмысления внешне экономических политик.А ещё интерактивные прототипы функционально разнесенына независимые элементы. Противоположная точка зрения подразумевает, что многие известные личностипредставленыв исключительно положительном свете. Вот вам яркий пример современных тенденций этого..."
+							.review--col
+								.swiper.slider-tree.review--slider.js--review--item
+									.swiper-wrapper
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--5.png', srcset='./img/video-reviews--5.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/video-reviews--2.png', srcset='./img/video-reviews--2.png 2x', alt='')
+										.swiper-slide
+											.review--slider--picture
+												img.video-reviews__preview(src='img/about-3.jpg', srcset='./img/about-3.jpg 2x', alt='')
+									
+									.review--slider--nav
+										.swiper-button-prev
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>											
+										.swiper-pagination
+										.swiper-button-next
+											<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+
+				.reviews--buttons
+					a(href="").button НАПИСАТЬ ОТЗЫВ
+					a(href="").button.button--outline ВСЕ ОТЗЫВЫ
+		.write-reviews
+			.container 
+				.write-review
+					.write-review--title.fz__39 ОСТАВЬТЕ ВАШ ОТЗЫВ
+						.write-review__close
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M10.57 -0.000150693L11.9794 1.41161L7.40926 5.98964L11.9998 10.5881L10.5904 11.9999L5.99994 7.4014L1.40944 11.9998L0.000113316 10.5881L4.59061 5.98964L0.0205078 1.41162L1.42983 -0.000143541L5.99994 4.57787L10.57 -0.000150693Z" fill="#CA3232"/>
+							</svg>					
+					.write-review--row
+							.write-review__form
+								form
+										.form__block__wrap
+												.form__block-double
+														.form__block 
+																label(for="")
+																		b
+																		input(type="text" placeholder="Фамилия")                 
+														.form__block 
+																label(for="")
+																		b
+																		input.js-mask-phone(type="tel", name="" placeholder="Ваш телефон")                 
+												.form__block 
+														label(for="")
+																b
+																<textarea name="", placeholder="Текст отзыва"></textarea>           
+												.form__block
+													a.button ОСТАВИТЬ ОТЗЫВ					
+		
+	include ../../blocks/modules/footer/footer
+block scripts
+	script(src="js/vendor.js")
+	script(src="js/main.js")

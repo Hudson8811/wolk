@@ -1,0 +1,125 @@
+.review__main {
+  .reviews .slider-tree--title {
+    @include max(md) {
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      a {
+        margin-left: 30px;
+      }     
+    }
+    @media (max-width: 800px) {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-flow: column nowrap;
+      a {
+        margin-left: 0;
+      }
+    }
+  }
+}
+.reviews__wrap {
+  position: relative;
+  display: flex;
+  width: calc(100% + 20px);
+  align-items: stretch;
+  flex-flow: row wrap;
+  margin-left: -20px;
+  margin-bottom: 25px;
+  .review.foto {
+    position: relative;
+    flex: 0 0 50%;
+    max-width: calc(50% - 20px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    @media (max-width: 1240px) {
+      position: relative;
+      flex: 0 0 100%;
+      max-width: calc(100% - 20px);
+      margin-left: 20px;   
+    }  
+    @media (max-width: 700px) {
+      position: relative;
+      flex: 0 0 100%;
+      max-width: calc(100% - 20px);
+      margin-left: 20px;   
+    }  
+  }
+}
+.write-reviews {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #2F323A;
+  margin-bottom: 64px;
+  .write-review {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    max-width: 686px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;   
+    &--title {
+      font-family: 'Exo2';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 39px;
+      line-height: 47px;
+      text-transform: uppercase;
+      color: #FFFFFF; 
+      margin-bottom: 35px; 
+      position: relative;
+      width: 100%;
+      text-align: center;
+      @include max(sm) {
+        padding-right: 30px;
+        text-align: left;
+      }
+    }
+    &--row {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+    }
+    &__form {
+      position: relative;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+      max-width: 686px;
+      form {
+          position: relative;
+          width: 100%;
+      }
+    }
+    &__close {
+      position: absolute;
+      right: 0;
+      top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include max(sm) {
+        top: 0px;
+      }
+    }
+  }
+
+}

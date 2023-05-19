@@ -1,0 +1,41 @@
+.course-page {
+  .block-content {
+    padding-top: 0;
+  }
+  .block-text {
+    margin-bottom: 20px;
+  }
+  .block-text--bg--2 {
+    left: auto;
+    right: -53px;
+    top: 40px;
+  }
+  .block-content{
+    &--course {
+      padding-bottom: 52px;
+    }
+    &--course-form {
+      padding-top: 131px;
+      padding-bottom: 64px;
+      margin-bottom: 52px;
+      @include max(sm) {
+        padding-top: 60px;
+        padding-bottom: 0px;
+        margin-bottom: 35px;        
+      }
+    }
+  }
+  &--slider {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;    
+  }
+  .block-content--course-video {
+    padding-bottom: 35px;
+  }
+}
