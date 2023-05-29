@@ -169,6 +169,14 @@ a.link--one {
 			color: #fff;
 		}
 	}
+	&.bg--beige {
+		background: #FCF7F0;
+		border: 1px solid #AE998D;
+		border-radius: 10px;
+		.slider-four--title {
+			color: #14213D;
+		}	
+	}
 	&--nearest-event {
 		padding-bottom: 0;
 	}

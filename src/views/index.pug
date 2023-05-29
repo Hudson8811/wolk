@@ -287,55 +287,55 @@ block content
 					.swiper.slider-four.js--nearest
 						.swiper-wrapper
 								.swiper-slide
-									.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--1.png', srcset='./img/nearest--1.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Комплексная <br>самооборона"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--2.png', srcset='./img/nearest--2.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Ножевой бой"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--3.png', srcset='./img/nearest--3.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle
 											!="Детская самооборона"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--4.png', srcset='./img/nearest--4.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Spec fit pro"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--4.png', srcset='./img/nearest--4.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Spec fit pro"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--2.png', srcset='./img/nearest--2.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Ножевой бой"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--3.png', srcset='./img/nearest--3.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle
 											!="Детская самооборона"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--4.png', srcset='./img/nearest--4.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
 											!="Spec fit pro"
 								.swiper-slide
-									a.video-reviews__video(href='#')
+									a.video-reviews__video(href="" data-fancybox data-src="#events--modal")
 										img.video-reviews__preview(src='img/nearest--4.png', srcset='./img/nearest--4.png 2x', alt='')
 									.slider-four--text
 										.slider-four--subtitle 
@@ -384,7 +384,7 @@ block content
 													img(src="img/instructor--certificat.png", alt="")
 												.instructor--certificat
 													img(src="img/instructor--certificat.png", alt="")
-											a(href="").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
+											a(href="" data-fancybox data-src="#js--instructors--modal").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
 								.swiper-slide
 									.instructor
 										.instructor--col
@@ -409,7 +409,7 @@ block content
 													img(src="img/instructor--certificat.png", alt="")
 												.instructor--certificat
 													img(src="img/instructor--certificat.png", alt="")
-											a(href="").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
+											a(href="" data-fancybox data-src="#js--instructors--modal").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
 								.swiper-slide
 									.instructor
 										.instructor--col
@@ -434,7 +434,7 @@ block content
 													img(src="img/instructor--certificat.png", alt="")
 												.instructor--certificat
 													img(src="img/instructor--certificat.png", alt="")
-											a(href="").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
+											a(href="" data-fancybox data-src="#js--instructors--modal").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ
 
 						.swiper-button-next
 							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -596,8 +596,141 @@ block content
 							<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
 							</svg>
 				.reviews--buttons
-					a(href="").button НАПИСАТЬ ОТЗЫВ
-					a(href="").button.button--outline ВСЕ ОТЗЫВЫ
+					a(href="#").button НАПИСАТЬ ОТЗЫВ
+					a(href="#").button.button--outline ВСЕ ОТЗЫВЫ
+
+		
+		
+		section#js--instructors--modal.block-content.bg--black.instructors--modal(style='display: none')
+			.container
+				.instructors
+					.instructors__bg.instructors__bg--56
+						img(src="img/instructor--modal--2.png", alt="")
+					.instructors--title.fz__39 ТАКТИКА БОЯ С НОЖОМ
+						.write-review__close
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M10.57 -0.000150693L11.9794 1.41161L7.40926 5.98964L11.9998 10.5881L10.5904 11.9999L5.99994 7.4014L1.40944 11.9998L0.000113316 10.5881L4.59061 5.98964L0.0205078 1.41162L1.42983 -0.000143541L5.99994 4.57787L10.57 -0.000150693Z" fill="#CA3232"/>
+							</svg>			
+					.instructor
+						.instructor--col
+							a.video-reviews__video(href='https://www.youtube.com/watch?v=tEPB7uzKuh4&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0')
+								img.video-reviews__preview(src='img/pop-up--foto--2.png', srcset='./img/video-reviews--1.png 2x', alt='')
+								.video-reviews__play
+									img(src='img/svg/i-play-2.svg', alt="")
+						.instructor--col
+							//- .instructor--name Иван Петров
+							.instructor--desc 
+								p 
+									!="Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности способствует подготовки и реализации новых предложений."
+								br
+								p 
+									!="Идейные соображения высшего порядка, а также начало повседневной работыпо формированию позиции играет важную роль в формировании существенныхфинансовых и административных условий. Товарищи! сложившаяся структура организации позволяет выполнять важные задания по разработке форм развития. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач."
+							.instructor--certificates--title Фото курса
+							.instructor--certificates
+								.instructor--certificat
+									img(src="img/pop-up--foto--1.png", alt="")
+								.instructor--certificat
+									img(src="img/pop-up--foto--1.png", alt="")
+								.instructor--certificat
+									img(src="img/pop-up--foto--1.png", alt="")
+							//- a(href="").instructor__button.button ПОДРОБНЕЕ О ПРЕПОДАВАТЕЛЕ		
+
+		section#events--modal.block-content.bg--beige.events--modal(style='display: none')
+			.container
+				.instructors
+					.slider-four--title.fz__39 МАСТЕР-КЛАСС ПО МАСТЕРСТВУ НОЖЕВОГО БОЯ
+					.swiper.slider-four.js--instructors--modal
+						.swiper-wrapper
+								.swiper-slide
+									.instructor
+										.instructor--col
+											.instructor--picture
+												img(src="img/instructor--picture--1.png", alt="") 
+										.instructor--col
+											//- .instructor--name Иван Петров
+											.instructor--desc 
+												p 
+													!="Таким образом начало повседневной работы по формированию позиции способствует подготовки и реализации новых предложений постоянный количественный рост и сфера нашей активности играет важную роль."
+												p 
+													!="Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют определения и уточнения форм развития."
+												p 
+													!="Разнообразный и богатый опыт укрепление и развитие структуры играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна,что реализация намеченных плановых заданий играет важную рольв формировании системы обучения кадров, соответствует текущим потребностям"
+											.instructor--desc.mb-none 
+												p 
+													!="Вы можете принять участие в ближайшем курсе исходя из нашего календаря или заказать свой курс в согласованное время и дату"
+											.instructor--buttons 
+												a(href="").instructor__button.button ЗАПИСАТЬСЯ НА КУРС
+												a(href="").instructor__button.button.button--outline ДРУГИЕ КУРСЫ
+								.swiper-slide
+									.instructor
+										.instructor--col
+											.instructor--picture
+												img(src="img/instructor--picture--1.png", alt="") 
+										.instructor--col
+											//- .instructor--name Иван Петров
+											.instructor--desc 
+												p 
+													!="Таким образом начало повседневной работы по формированию позиции способствует подготовки и реализации новых предложений постоянный количественный рост и сфера нашей активности играет важную роль."
+												p 
+													!="Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют определения и уточнения форм развития."
+												p 
+													!="Разнообразный и богатый опыт укрепление и развитие структуры играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна,что реализация намеченных плановых заданий играет важную рольв формировании системы обучения кадров, соответствует текущим потребностям"
+											.instructor--desc.mb-none 
+												p 
+													!="Вы можете принять участие в ближайшем курсе исходя из нашего календаря или заказать свой курс в согласованное время и дату"
+											.instructor--buttons 
+												a(href="").instructor__button.button ЗАПИСАТЬСЯ НА КУРС
+												a(href="").instructor__button.button.button--outline ДРУГИЕ КУРСЫ
+								.swiper-slide
+									.instructor
+										.instructor--col
+											.instructor--picture
+												img(src="img/instructor--picture--1.png", alt="") 
+										.instructor--col
+											//- .instructor--name Иван Петров
+											.instructor--desc 
+												p 
+													!="Таким образом начало повседневной работы по формированию позиции способствует подготовки и реализации новых предложений постоянный количественный рост и сфера нашей активности играет важную роль."
+												p 
+													!="Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют определения и уточнения форм развития."
+												p 
+													!="Разнообразный и богатый опыт укрепление и развитие структуры играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна,что реализация намеченных плановых заданий играет важную рольв формировании системы обучения кадров, соответствует текущим потребностям"
+											.instructor--desc.mb-none 
+												p 
+													!="Вы можете принять участие в ближайшем курсе исходя из нашего календаря или заказать свой курс в согласованное время и дату"
+											.instructor--buttons 
+												a(href="").instructor__button.button ЗАПИСАТЬСЯ НА КУРС
+												a(href="").instructor__button.button.button--outline ДРУГИЕ КУРСЫ
+								.swiper-slide
+									.instructor
+										.instructor--col
+											.instructor--picture
+												img(src="img/instructor--picture--1.png", alt="") 
+										.instructor--col
+											//- .instructor--name Иван Петров
+											.instructor--desc 
+												p 
+													!="Таким образом начало повседневной работы по формированию позиции способствует подготовки и реализации новых предложений постоянный количественный рост и сфера нашей активности играет важную роль."
+												p 
+													!="Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют определения и уточнения форм развития."
+												p 
+													!="Разнообразный и богатый опыт укрепление и развитие структуры играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна,что реализация намеченных плановых заданий играет важную рольв формировании системы обучения кадров, соответствует текущим потребностям"
+											.instructor--desc.mb-none 
+												p 
+													!="Вы можете принять участие в ближайшем курсе исходя из нашего календаря или заказать свой курс в согласованное время и дату"
+											.instructor--buttons 
+												a(href="").instructor__button.button ЗАПИСАТЬСЯ НА КУРС
+												a(href="").instructor__button.button.button--outline ДРУГИЕ КУРСЫ
+
+						.swiper-button-next
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 17L9 8.99999L0.999999 0.999996" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+						.swiper-button-prev
+							<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10 1L2 9.00001L10 17" stroke="#CA3232" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+
 
 	include ../blocks/modules/footer/footer
 

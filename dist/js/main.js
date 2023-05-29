@@ -4782,18 +4782,20 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
+/* harmony import */ var _fancyapps_ui__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fancyapps/ui */ "./node_modules/@fancyapps/ui/dist/index.esm.js");
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
 
-swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper.use([swiper__WEBPACK_IMPORTED_MODULE_1__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_1__.Scrollbar, swiper__WEBPACK_IMPORTED_MODULE_1__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_1__.Controller, swiper__WEBPACK_IMPORTED_MODULE_1__.Autoplay, swiper__WEBPACK_IMPORTED_MODULE_1__.Mousewheel]);
+
+swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper.use([swiper__WEBPACK_IMPORTED_MODULE_2__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_2__.Scrollbar, swiper__WEBPACK_IMPORTED_MODULE_2__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_2__.Controller, swiper__WEBPACK_IMPORTED_MODULE_2__.Autoplay, swiper__WEBPACK_IMPORTED_MODULE_2__.Mousewheel]);
 var videoReviews;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--video-reviews').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var videoReviews = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var videoReviews = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4812,7 +4814,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--video-reviews').each(functio
 var courses;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--courses').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var courses = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var courses = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4831,7 +4833,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--courses').each(function () {
 var training;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--training').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var training = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var training = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4850,7 +4852,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--training').each(function () 
 var certificates;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--certificates').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var certificates = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var certificates = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4869,7 +4871,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--certificates').each(function
 var nearest;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--nearest').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var certificates = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var certificates = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4888,7 +4890,26 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--nearest').each(function () {
 var instructors;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--instructors').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var instructors = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var instructors = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
+    slidesPerView: "1",
+    spaceBetween: 0,
+    loop: false,
+    pagination: false,
+    autoHeight: true,
+    navigation: {
+      nextEl: slider.find('.swiper-button-next')[0],
+      prevEl: slider.find('.swiper-button-prev')[0]
+    }
+  }, "pagination", {
+    el: slider.find('.swiper-pagination')[0],
+    type: 'bullets',
+    clickable: true
+  }));
+});
+var instructorsModal;
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--instructors--modal').each(function () {
+  var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+  var instructorsModal = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "1",
     spaceBetween: 0,
     loop: false,
@@ -4907,7 +4928,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--instructors').each(function 
 var reviews;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--reviews').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var reviews = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], {
+  var reviews = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], {
     slidesPerView: "auto",
     spaceBetween: 25,
     loop: false,
@@ -4951,7 +4972,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--reviews').each(function () {
 var reviewItem;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--review--item').each(function () {
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var reviewItem = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], _defineProperty({
+  var reviewItem = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], _defineProperty({
     slidesPerView: "1",
     spaceBetween: 0,
     loop: false,
@@ -4969,9 +4990,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--review--item').each(function
 });
 var coursePage;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--course-page').each(function () {
-  var _Swiper8;
+  var _Swiper9;
   var slider = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-  var coursePage = new swiper__WEBPACK_IMPORTED_MODULE_1__.Swiper(slider[0], (_Swiper8 = {
+  var coursePage = new swiper__WEBPACK_IMPORTED_MODULE_2__.Swiper(slider[0], (_Swiper9 = {
     slidesPerView: "auto",
     spaceBetween: 0,
     loop: false,
@@ -4981,17 +5002,17 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.js--course-page').each(function 
       nextEl: slider.find('.swiper-button-next')[0],
       prevEl: slider.find('.swiper-button-prev')[0]
     }
-  }, _defineProperty(_Swiper8, "pagination", {
+  }, _defineProperty(_Swiper9, "pagination", {
     el: slider.find('.swiper-pagination')[0],
     type: 'bullets',
     clickable: true
-  }), _defineProperty(_Swiper8, "breakpoints", {
+  }), _defineProperty(_Swiper9, "breakpoints", {
     // when window width is >= 480px
     800: {
       slidesPerView: "auto",
       spaceBetween: 26
     }
-  }), _Swiper8));
+  }), _Swiper9));
 });
 
 //timer
@@ -5067,6 +5088,8 @@ humb.addEventListener("click", function () {
 });
 
 //modal
+_fancyapps_ui__WEBPACK_IMPORTED_MODULE_1__.Fancybox.bind("[data-fancybox]", {});
+
 //modal
 
 /***/ }),
@@ -5082,9 +5105,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _import_modules__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./import/modules */ "./src/js/import/modules.js");
 /* harmony import */ var _import_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./import/components */ "./src/js/import/components.js");
 /* harmony import */ var _import_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_import_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _import_page_index_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./import/page/index-page */ "./src/js/import/page/index-page.js");
-/* harmony import */ var _import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./import/libs/swiper-bundle.min */ "./src/js/import/libs/swiper-bundle.min.js");
-/* harmony import */ var _import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./import/libs/swiper-bundle.min */ "./src/js/import/libs/swiper-bundle.min.js");
+/* harmony import */ var _import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_import_libs_swiper_bundle_min__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _import_page_index_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./import/page/index-page */ "./src/js/import/page/index-page.js");
 
 
 
