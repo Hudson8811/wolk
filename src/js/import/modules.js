@@ -1,2 +1,2 @@
-import "%modules%/header/header";
-import "%modules%/footer/footer";
+@@include("../../blocks/modules/header/header.js")
+@@include("../../blocks/modules/footer/footer.js")
