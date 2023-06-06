@@ -455,12 +455,13 @@ $('.js--course-page').each(function(){
 			// secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
 			if (t.total <= 0) {
-				clearInterval(timeinterval);
+					clearInterval(timeinterval);
+
 			}
 		}
 
-		updateClock();
 		const timeinterval = setInterval(updateClock, 1000);
+		updateClock();
 	}
 	// var deadline = 'December 31 2015 23:59:59 GMT+02:00';
 	// var deadline = 'December 31 2015';
