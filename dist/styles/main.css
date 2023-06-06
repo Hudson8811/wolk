@@ -3690,10 +3690,6 @@ html.with-fancybox body.hide-scrollbar {
   align-items: center;
 }
 
-.block-content.instructors--modal .instructors--title .write-review__close {
-  display: none;
-}
-
 .block-content.instructors--modal .instructors__bg--56 {
   left: -52px;
   bottom: 44px;
