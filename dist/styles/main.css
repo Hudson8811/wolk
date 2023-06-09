@@ -5026,9 +5026,23 @@ html.with-fancybox body.hide-scrollbar {
   content: url(../img/svg/Star--red.svg);
 }
 
+.is-compact .fancybox__content > .f-button.is-close-btn {
+  --f-button-bg: transparent;
+  --f-button-color: #CA3232;
+  color: #CA3232;
+  opacity: 1;
+  background: transparent;
+  display: flex;
+}
+
+.fancybox__content > .f-button.is-close-btn {
+  display: none;
+}
+
 .block-content.instructors--modal {
   width: 100%;
   max-width: 1920px;
+  overflow: visible;
 }
 
 .block-content.instructors--modal .instructors {
@@ -5174,6 +5188,7 @@ html.with-fancybox body.hide-scrollbar {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+  overflow: visible;
 }
 
 .block-content.events--modal .instructors .slider-four--title {
@@ -5360,6 +5375,7 @@ html.with-fancybox body.hide-scrollbar {
   padding-top: 64px;
   padding-bottom: 64px;
   border: 1px solid #AE998D;
+  overflow: visible;
 }
 
 .block-content.calendar--modal .container {
@@ -8792,6 +8808,10 @@ a.link--one:hover {
     line-height: 1.2;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .block-content.instructors--modal .instructors .write-review__close {
+    display: none;
   }
 
   .header__decs__name {

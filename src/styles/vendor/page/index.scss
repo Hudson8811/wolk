@@ -1568,10 +1568,21 @@ $star-off-color: #CCCCCC;
 		content: url(../img/svg/Star--red.svg);
 	}
 }
-
+.is-compact .fancybox__content > .f-button.is-close-btn  {
+	--f-button-bg: transparent;
+	--f-button-color: #CA3232;
+	color: #CA3232;
+	opacity: 1;
+	background: transparent;
+	display: flex;
+}
+.fancybox__content > .f-button.is-close-btn {
+	display: none;
+}
 .block-content.instructors--modal {
 	width: 100%;
 	max-width: 1920px;
+	overflow: visible;
 	@include max(sm) {
 		padding: 15px;
 	}
@@ -1579,6 +1590,7 @@ $star-off-color: #CCCCCC;
 		@include max(sm) {
 			width: 100%;
 			max-width: 100%;
+
 		}		
 	}
 	.instructors {
@@ -1597,6 +1609,11 @@ $star-off-color: #CCCCCC;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	}
+	.write-review__close {
+		@media (max-width: 576px) {
+			display: none;
+		}
 	}
 	&__bg--56 {
 		left: -52px;
@@ -1736,6 +1753,7 @@ $star-off-color: #CCCCCC;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 100%;
+	overflow: visible;
 	@include max(lg) {
 		padding: 20px;
 		padding-top: 20px;
@@ -1943,6 +1961,7 @@ $star-off-color: #CCCCCC;
 	padding-top: 64px;
 	padding-bottom: 64px;
 	border: 1px solid #AE998D;
+	overflow: visible;
 	@include max(md) {
 		width: 100%;
 		padding: 20px;
